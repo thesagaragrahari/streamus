@@ -1,4 +1,4 @@
-package com.streamus.api.dto;
+package com.tsa.api.dto;
 
 import jakarta.validation.constraints.NotBlank;
 

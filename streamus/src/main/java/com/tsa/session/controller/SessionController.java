@@ -1,4 +1,4 @@
-package com.streamus.api.rest;
+package com.tsa.session.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.annotation.Validated;

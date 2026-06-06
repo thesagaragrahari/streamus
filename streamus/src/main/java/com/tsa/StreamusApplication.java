@@ -1,4 +1,4 @@
-package com.infosagaragrahari.streamus;
+package com.tsa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

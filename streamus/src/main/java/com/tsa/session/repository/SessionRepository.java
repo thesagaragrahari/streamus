@@ -1,4 +1,4 @@
-package com.streamus.session.repository;
+package com.tsa.session.repository;
 
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 

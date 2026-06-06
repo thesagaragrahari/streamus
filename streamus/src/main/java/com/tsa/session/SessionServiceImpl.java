@@ -1,4 +1,4 @@
-package com.streamus.session.service.impl;
+package com.tsa.session;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

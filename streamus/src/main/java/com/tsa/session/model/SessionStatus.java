@@ -1,4 +1,4 @@
-package com.streamus.session.model;
+package com.tsa.session.model;
 
 public enum SessionStatus {
 

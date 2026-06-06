@@ -1,4 +1,4 @@
-package com.streamus.session.entity;
+package com.tsa.session.entity;
 
 import java.time.LocalDateTime;
 

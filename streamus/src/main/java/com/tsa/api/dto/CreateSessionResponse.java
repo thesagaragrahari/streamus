@@ -1,5 +1,4 @@
-package com.streamus.api.dto;
-
+package com.tsa.api.dto;
 public record CreateSessionResponse(
 
         String sessionId,
