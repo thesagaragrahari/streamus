@@ -9,4 +9,7 @@ public interface SessionService {
 
     Mono<CreateSessionResponse> createSession(CreateSessionRequest request);
 
+    Mono<CreateSessionResponse> getSession(String sessionId);
+
+    Mono<StreamSession> updateStatus(String sessionId, SessionStatus status) ;
 }

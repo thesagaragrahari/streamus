@@ -4,9 +4,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import com.streamus.api.dto.CreateSessionRequest;
-import com.streamus.api.dto.CreateSessionResponse;
-import com.streamus.session.service.SessionService;
+import com.tsa.api.dto.CreateSessionRequest;
+import com.tsa.api.dto.CreateSessionResponse;
+import com.tsa.session.service.SessionService;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -27,4 +27,10 @@ public class SessionController {
 
         return sessionService.createSession(request);
     }
+
+    @GetMapping("/{sessionId}")
+    public Mono<CreateSessionResponse> getSession(@PathVariable String sessionId) {
+        return sessionService.getSession(sessionId);
+    }
+
 }
