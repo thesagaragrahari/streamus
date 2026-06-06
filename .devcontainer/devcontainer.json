@@ -1,7 +1,4 @@
 {
   "name": "StreamUs",
-  "image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
-  "features": {
-    "ghcr.io/devcontainers/features/git:1": {}
-  }
+  "image": "mcr.microsoft.com/devcontainers/universal:2"
 }
