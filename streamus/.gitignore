@@ -1,3 +1,8 @@
+# Ignore local Spring Boot configuration files
+application-local.properties
+application-local.yaml
+
+
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
