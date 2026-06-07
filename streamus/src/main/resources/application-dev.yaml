@@ -3,7 +3,8 @@ spring:
     url: ${DB_URL}
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
-
+    properties:
+      sslMode: REQUIRE
 management:
   endpoints:
     web:
